@@ -2,36 +2,35 @@ import React from "react";
 
 const Index = () => {
   return (
-    <footer class="footer_footer__container__3aZtl">
-      <div class="footer_footer__top__3uBXe">
-        <div class="footer_footer__subscribeBlock__1S32v">
-          <form class="footer_footer__subscribeForm__2SUzb">
+    <footer className="footer_footer__container__3aZtl">
+      <div className="footer_footer__top__3uBXe">
+        <div className="footer_footer__subscribeBlock__1S32v">
+          <form className="footer_footer__subscribeForm__2SUzb">
             <label
-              for="subscribeInput"
-              class="footer_footer__subscribeLabel__8RZuK"
+              htmlFor="subscribeInput"
+              className="footer_footer__subscribeLabel__8RZuK"
             >
               <input
                 type="text"
                 id="subscribeInput"
                 placeholder="Your e-mail"
-                value=""
-                class="footer_footer__subscribeInput__1KHk4"
+                className="footer_footer__subscribeInput__1KHk4"
               />
             </label>
             <button
-              class="
+              className="
                   button_button__2NpT5
                   button_button_color_default__1xI3m
                   footer_footer__subscribeButton__2HE-O
                 "
             >
-              <span class="button_button__text__1Soec undefined">
+              <span className="button_button__text__1Soec undefined">
                 subscribe
               </span>
             </button>
           </form>
           <span
-            class="
+            className="
                 typography_typography__18S7C
                 footer_footer__subscribeText__3CdyT
                 typography_typography__body15__31t06
@@ -40,12 +39,12 @@ const Index = () => {
             Subscribe to be first to learn about Sidus Heroes updates
           </span>
         </div>
-        <div class="footer_footer__logoBox__BLrOd">
+        <div className="footer_footer__logoBox__BLrOd">
           <svg
             viewBox="0 0 530 51"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            class="footer_footer__logo__2dDxY"
+            className="footer_footer__logo__2dDxY"
           >
             <g clipPath="url(#logo_svg__clip0_731:8034)" fill="#fff">
               <path d="M429.276 22.162h-4.255l1.216-14.319-9.057 14.319h-4.012L426.845.626h4.316l-1.398 14.492L438.942.626h4.012l-13.678 21.536zM462.405 4.206h-10.273l-3.465 5.427h9.605l-2.31 3.58h-9.605l-5.653 8.949h-4.012L450.369.626h14.285l-2.249 3.58zM483.985 4.206h-6.2l-11.428 17.956h-4.012l11.428-17.956h-6.201l2.31-3.58h16.413l-2.31 3.58zM412.925 50.106h-4.012l5.653-8.891h-8.328l-5.653 8.891h-4.012l13.738-21.536h4.012l-5.775 9.065h8.328l5.775-9.065h4.012l-13.738 21.536zM432.803 50.106h-14.346l13.677-21.536h14.346l-2.31 3.58h-10.334l-3.465 5.427h9.605l-2.31 3.58h-9.605l-3.343 5.312h10.334l-2.249 3.637zM462.831 36.711a8.967 8.967 0 01-2.067 2.194c-.304.231-.851.578-1.58.982-.73.404-1.277.75-1.702.923-.487.231-.912.405-1.338.52l-1.033 8.776h-4.377l1.155-8.487h-4.376l-5.41 8.487h-4.012l13.738-21.536h10.698c1.033 0 1.763.289 2.188.809.122.173.304.461.487.923.182.462.304.809.304 1.04.06.635-.183 1.385-.73 2.194l-1.945 3.175zm-4.012-.057l1.945-3.118.122-.231c0-.693-.122-1.097-.486-1.155h-6.93l-3.647 5.831h6.686c.183 0 .486-.115.973-.404.486-.288.851-.52 1.216-.808.06 0 .121-.058.121-.115zM480.823 44.968c-.486.808-1.155 1.501-1.884 2.078-.547.405-1.277.867-2.249 1.444-.973.577-1.702.981-2.189 1.155-1.033.404-1.945.635-2.796.635h-5.774c-.851 0-1.52-.231-1.946-.635-.243-.174-.486-.578-.729-1.155a5.966 5.966 0 01-.426-1.444c-.06-.577.183-1.27.669-2.078l7.173-11.259c.486-.808 1.155-1.5 1.945-2.078.486-.347 1.216-.809 2.249-1.444.973-.577 1.763-.981 2.189-1.154 1.033-.405 1.945-.636 2.796-.636h5.774c.852 0 1.52.231 1.946.636.243.173.486.577.668 1.154.243.578.365 1.04.426 1.444.061.577-.183 1.27-.669 2.078l-7.173 11.259zm-6.261-11.143l-7.051 11.143c-.061.058-.061.115-.061.115.061.693.304 1.213.669 1.56.061 0 .121.057.182.057h5.471c.061 0 .122 0 .243-.058.79-.288 1.702-.808 2.675-1.559l.121-.115 7.052-11.143c.06-.116.06-.174.06-.174-.06-.75-.303-1.27-.668-1.558-.061 0-.122-.058-.183-.058h-5.47c-.122 0-.183 0-.244.058-.79.288-1.702.866-2.674 1.558l-.122.174zM496.993 50.106h-14.346l13.677-21.536h14.346l-2.31 3.58h-10.334l-3.464 5.427h9.604l-2.31 3.58h-9.604l-3.344 5.312h10.334l-2.249 3.637zM522.463 44.968a8.035 8.035 0 01-1.884 2.078c-.487.347-1.216.809-2.189 1.444-.972.577-1.702.981-2.249 1.155-1.094.404-2.006.635-2.796.635h-6.626c-1.641 0-2.614-.982-2.918-3.003-.06-.173 0-.577 0-1.097l4.559-1.212c.061.693.304 1.212.608 1.674.061 0 .122.058.243.058h6.262l.243-.058c.364-.115.911-.404 1.58-.808s1.094-.693 1.155-.808l1.337-2.137c.243-.346.183-.577-.06-.635l-8.207-2.656c-.79-.23-1.215-.75-1.276-1.5-.061-.751.182-1.56.79-2.426l1.216-1.963a8.038 8.038 0 011.884-2.078c.486-.347 1.216-.809 2.189-1.386a28.24 28.24 0 012.249-1.212c1.094-.405 2.006-.636 2.796-.636h5.653c1.641 0 2.614.982 2.918 3.003.061.346 0 .75-.061 1.27l-4.498 1.04c-.061-.81-.304-1.329-.608-1.675 0 0-.061-.058-.182-.058h-5.35l-.243.058c-.425.115-.912.404-1.58.808-.669.404-1.034.635-1.094.808l-1.155 1.79c-.244.347-.244.578 0 .635l8.206 2.714c.79.231 1.155.75 1.216 1.501.06.75-.183 1.56-.73 2.425l-1.398 2.252zM26.565 4.783C28.449 1.78 30.759.279 33.555.279h67.048c1.945 0 2.675.924 2.128 2.83a7.325 7.325 0 01-.791 1.731l-2.796 4.504c-1.155 1.848-2.674 3.176-4.62 3.984-.911.346-1.702.577-2.431.577h-58.72c-1.277 0-2.492.75-3.526 2.31a3.007 3.007 0 00-.364.808c-.304.982.06 1.443 1.094 1.443h56.592c2.918 0 3.951 1.386 3.161 4.157-.304.982-.669 1.848-1.155 2.599L76.41 45.602c-1.702 2.714-4.073 4.273-6.99 4.562H2.31c-1.944 0-2.674-.924-2.127-2.83a7.309 7.309 0 01.79-1.731l8.51-13.569c1.703-2.713 4.073-4.272 6.991-4.56H71c1.276 0 2.492-.751 3.525-2.252.183-.29.304-.578.365-.867.243-.923-.06-1.385-1.033-1.385H21.459c-2.979 0-4.073-1.386-3.283-4.1.243-.75.669-1.616 1.277-2.655l7.112-11.432zM153.547.28h-35.074c-2.857.288-5.227 1.79-6.99 4.56l-1.459 2.252a10.58 10.58 0 00-.73 1.732c-.547 1.848.183 2.83 2.128 2.83h8.328c.972 0 1.337.461 1.094 1.385-.061.231-.243.52-.426.866l-8.51 13.568c-.972 1.56-2.127 2.31-3.525 2.31h-8.328c-.73 0-1.52.173-2.493.577-1.884.75-3.403 2.079-4.558 3.926L85.89 45.603a7.307 7.307 0 00-.79 1.732c-.547 1.847.183 2.829 2.128 2.829h16.716c.669 0 1.337-.116 2.128-.231.547.173 1.155.23 1.823.23h16.717c1.945 0 3.768-.923 5.531-2.828.547-.578.973-1.155 1.338-1.732l6.625-11.317c1.094-1.847 1.155-3.175.183-3.926-.487-.346-1.034-.577-1.763-.577h-8.328c-1.398 0-1.641-.75-.729-2.31l7.902-13.568c.182-.346.425-.635.608-.866.851-.924 1.763-1.386 2.735-1.386h8.328c1.945 0 3.769-.923 5.532-2.829.547-.577.972-1.154 1.398-1.732l1.276-2.252c1.277-2.77.79-4.272-1.702-4.56zM241.385 9.286c-1.946 0-2.675-.924-2.128-2.714a7.32 7.32 0 01.79-1.732c.426-.635.73-1.27.912-1.79.547-1.847-.182-2.713-2.188-2.713h-65.589c-2.736 0-5.106 1.501-6.991 4.561L140.6 45.602c-.425.636-.729 1.27-.851 1.79-.547 1.848.182 2.714 2.188 2.714h61.334c5.532 0 10.212-3.002 14.042-9.007l.122-.173c1.762-2.714 4.072-4.157 6.929-4.388 2.736 0 5.106-1.501 6.991-4.561l11.367-18.13c.365-.635.669-1.212.79-1.732.547-1.732-.182-2.656-2.127-2.829zM220.96 25.164c-1.033 1.5-2.249 2.251-3.525 2.251h-32.096c-.972 0-1.276-.462-1.033-1.385.061-.289 5.592-9.47 5.775-9.758 1.033-1.5 2.249-2.251 3.525-2.251h32.096c.972 0 1.276.461 1.033 1.385-.061.289-5.592 9.469-5.775 9.758zM238.405 50.049c-4.011 0-5.41-1.848-4.376-5.485.304-.982.851-2.194 1.702-3.522L258.465 4.84C260.35 1.838 262.659.28 265.456.28h22.977c2.006 0 2.735.923 2.188 2.713a8.86 8.86 0 01-.79 1.79l-12.765 20.381a7.279 7.279 0 00-.79 1.732c-.547 1.848.182 2.771 2.127 2.771h12.522c2.736 0 5.106-1.5 6.991-4.56l12.765-20.382c1.702-2.713 4.073-4.272 6.99-4.56h6.322c1.945 0 2.675.923 2.128 2.828-.183.693-.426 1.27-.73 1.732l-22.795 36.201c-2.37 3.753-5.41 6.351-9.178 7.91-1.824.75-3.465 1.097-4.863 1.097h-50.15v.116zM335.726 4.783c1.884-3.003 4.194-4.504 6.99-4.504h67.048c1.945 0 2.675.924 2.128 2.83a7.325 7.325 0 01-.791 1.731l-2.796 4.504c-1.155 1.848-2.674 3.176-4.62 3.984-.911.346-1.702.577-2.431.577h-58.72c-1.277 0-2.492.75-3.526 2.31a2.987 2.987 0 00-.364.808c-.304.982.06 1.443 1.094 1.443h56.592c2.918 0 3.951 1.386 3.161 4.157-.304.982-.668 1.848-1.155 2.599l-12.765 20.38c-1.702 2.714-4.073 4.273-6.99 4.562h-67.109c-1.945 0-2.675-.924-2.128-2.83a7.327 7.327 0 01.791-1.731l8.51-13.569c1.702-2.713 4.073-4.272 6.99-4.56h54.526c1.277 0 2.492-.751 3.526-2.252.182-.29.304-.578.364-.867.244-.923-.06-1.385-1.033-1.385h-52.459c-2.979 0-4.073-1.386-3.282-4.1.243-.75.668-1.616 1.276-2.655l7.173-11.432z"></path>
@@ -62,8 +61,8 @@ const Index = () => {
           </svg>
         </div>
       </div>
-      <div class="footer_footer__bottom__r8Us0">
-        <div class="footer_footer__socials__2JrYT">
+      <div className="footer_footer__bottom__r8Us0">
+        <div className="footer_footer__socials__2JrYT">
           <a
             href="https://opensea.io/collection/sidus-nft-heroes"
             target="_blank"
@@ -184,11 +183,11 @@ const Index = () => {
             </svg>
           </a>
         </div>
-        <div class="footer_footer__linksBlock__2nFWN">
-          <div class="footer_footer__linksBlockItem__2a3en">
+        <div className="footer_footer__linksBlock__2nFWN">
+          <div className="footer_footer__linksBlockItem__2a3en">
             <a href="https://sidusheroes.com/">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -202,7 +201,7 @@ const Index = () => {
             </a>
             <a href="https://sidusheroes.com/heroes">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -216,7 +215,7 @@ const Index = () => {
             </a>
             <a href="https://sidusheroes.com/marketplace">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -230,7 +229,7 @@ const Index = () => {
             </a>
             <a href="https://sidusheroes.com/academy">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -243,10 +242,10 @@ const Index = () => {
               </span>
             </a>
           </div>
-          <div class="footer_footer__linksBlockItem__2a3en">
+          <div className="footer_footer__linksBlockItem__2a3en">
             <a href="https://sidusheroes.com/staking">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -260,7 +259,7 @@ const Index = () => {
             </a>
             <a href="https://sidusheroes.com/starter">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -274,7 +273,7 @@ const Index = () => {
             </a>
             <a href="https://sidusheroes.com/team">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -288,7 +287,7 @@ const Index = () => {
             </a>
             <a href="https://sidusheroes.com/documents">
               <span
-                class="
+                className="
                     typography_typography__18S7C
                     footer_footer__socialLinkRight__2H4Y3
                     typography_typography_letterSpace__S5zSD
@@ -302,9 +301,9 @@ const Index = () => {
             </a>
           </div>
         </div>
-        <div class="footer_footer__copyright__1EsDm">
+        <div className="footer_footer__copyright__1EsDm">
           <p
-            class="
+            className="
                 typography_typography__18S7C
                 footer_footer__bottomText__2lm3R
                 typography_typography_letterSpace__S5zSD

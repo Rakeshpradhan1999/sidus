@@ -53,7 +53,7 @@ const BuyBlock = () => {
                       Input_input__input__CjoHG
                       buy-hero_form__input__b7_sH
                     "
-                  value="1"
+                  defaultValue="1"
                   placeholder="1"
                 />
               </div>
@@ -156,7 +156,7 @@ const BuyBlock = () => {
                         Input_input__input__CjoHG
                         modificator_form__input__1jin1
                       "
-                    value="0"
+                    defaultValue="0"
                     placeholder="0"
                   />
                 </div>
@@ -223,7 +223,7 @@ const BuyBlock = () => {
                         Input_input__input__CjoHG
                         modificator_form__input__1jin1
                       "
-                    value="0"
+                    defaultValue="0"
                     placeholder="0"
                   />
                 </div>
@@ -303,7 +303,6 @@ const BuyBlock = () => {
                 type="number"
                 className="check_hero_modificator__input__2_lVD"
                 placeholder="ex. #2036"
-                value=""
               />
             </label>
             <button
@@ -342,8 +341,6 @@ const BuyBlock = () => {
                     id="test1"
                     name="hero"
                     className="hero-item_heroItem__input__3U1hy"
-                    checked=""
-                    readOnly=""
                   />
                   <label
                     htmlFor="test1"
@@ -391,7 +388,6 @@ const BuyBlock = () => {
                     id="Rare"
                     name="hero"
                     className="hero-item_heroItem__input__3U1hy"
-                    checked=""
                     readOnly=""
                   />
                   <label

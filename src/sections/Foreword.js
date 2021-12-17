@@ -2,11 +2,11 @@ import React from "react";
 
 const Foreword = () => {
   return (
-    <section class="Foreword_container__29Tvx">
-      <div class="Foreword_containerInner__8y_3X">
-        <div class="Foreword_container__info__WyBSC">
+    <section className="Foreword_container__29Tvx">
+      <div className="Foreword_containerInner__8y_3X">
+        <div className="Foreword_container__info__WyBSC">
           <h2
-            class="
+            className="
                 Title_title__SM0ON
                 Foreword_container__info__title__1PH6a
               "
@@ -35,7 +35,7 @@ const Foreword = () => {
             yield farming service.
           </p>
         </div>
-        <div class="Foreword_container__image__16cTy"></div>
+        <div className="Foreword_container__image__16cTy"></div>
       </div>
     </section>
   );

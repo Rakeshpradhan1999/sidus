@@ -3885,10 +3885,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .welcome_welcome__container__2rd8w:before {
-    /* background-image: url(../assets/heroes-bg-1024.jpg); */
-  }
-
   .welcome_welcome__logoLine__buUrd {
     top: 8.4rem;
   }

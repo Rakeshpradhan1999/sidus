@@ -1,0 +1,448 @@
+.mainContainer {
+  /* background-color: rgba(245, 231, 245, 0.788);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+.navBarContainer {
+  background-color: transparent;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBarContainer .brandLogo {
+  min-width: 22vw;
+}
+
+.navBarContainer .middleNavigateTabs {
+  justify-self: center;
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  padding: 4px;
+  border-radius: 16px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+  overflow: auto;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.middleNavigateTabs .active {
+  background-color: rgba(234, 237, 240, 0.582);
+  font-weight: 600;
+}
+
+.middleNavigateTabs button {
+  background-color: transparent;
+  border-radius: 0.7rem;
+  opacity: 0.8;
+  border: none;
+  outline: none;
+  /* padding: 0.55rem 0.7rem; */
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.rightActionButtons {
+  display: flex;
+}
+
+.rightActionButtons button {
+  border-radius: 12px;
+  border: 0.5px solid transparent;
+  outline: none;
+  padding: 6px 8px;
+  font-size: 1rem;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.currencyButton {
+  background-color: rgb(247, 248, 250);
+  color: black;
+  margin-right: 1rem;
+}
+
+.connectWalletButton {
+  background-color: rgb(253, 234, 241);
+  color: rgb(213, 0, 102);
+  margin-right: 1rem;
+}
+
+.connectWalletButton:hover {
+  border: 1px solid rgb(241, 201, 218);
+}
+
+.moreActionButton {
+  height: 38px;
+  background-color: rgb(255, 255, 255);
+  padding: 0.15rem 0.5rem;
+}
+
+.moreActionButton:hover {
+  border: 1px solid rgb(206, 208, 217);
+}
+
+.middleBox {
+  max-width: 480px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 1%) 0px 0px 1px, rgb(0 0 0 / 4%) 0px 4px 8px,
+    rgb(0 0 0 / 4%) 0px 16px 24px, rgb(0 0 0 / 1%) 0px 24px 32px;
+  border-radius: 24px;
+  /* margin-top: 4rem; */
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.boxHeader {
+  padding: 1rem 1.25rem 0.5rem;
+  /* width: 100%; */
+  color: rgb(56, 59, 68);
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  align-items: normal;
+}
+
+.boxContain {
+  padding: 3px 8px 8px;
+}
+
+.firstSelectionGrid,
+.secondSelectionGrid {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 1.3rem 1rem;
+  border-radius: 20px;
+  border: 1px solid rgb(237, 238, 242);
+  background-color: rgb(247, 248, 250);
+  width: initial;
+  margin-bottom: 0.3rem;
+  position: relative;
+}
+
+.swapButton {
+  padding: 4px;
+  border-radius: 12px;
+  height: 20px;
+  width: 19px;
+  position: absolute;
+  margin-top: -18px;
+  margin-bottom: -14px;
+  left: calc(50% - 16px);
+  background-color: rgb(247, 248, 250);
+  border: 4px solid rgb(255, 255, 255);
+  z-index: 2;
+  text-align: center;
+}
+
+.firstSelectionGrid:hover,
+.secondSelectionGrid:hover {
+  border: 1px solid rgba(200, 205, 228, 0.836);
+}
+
+.secondSelectionGrid button {
+  background-color: rgb(232, 0, 111);
+  color: rgb(255, 255, 255);
+}
+
+.firstSelectionGrid button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.selectCurrencyButton {
+  display: flex;
+  visibility: visible;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 16px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  height: 2.4rem;
+  width: initial;
+  padding: 0px 12px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-right: 12px;
+}
+
+.amountInput {
+  color: rgb(0, 0, 0);
+  width: 0px;
+  position: relative;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  flex: 1 1 auto;
+  background-color: rgb(247, 248, 250);
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px;
+  appearance: textfield;
+  text-align: right;
+}
+
+.connectWalletGrid {
+  width: 100%;
+  background-color: rgb(253, 234, 241);
+  color: rgb(213, 0, 102);
+  font-size: 16px;
+  font-weight: 500;
+  height: 3.5rem;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+
+.connectWalletButton:hover {
+  background-color: rgb(252, 220, 232);
+}
+
+/* popup styles  */
+
+.popupContainer {
+  width: 385px;
+  height: 90vh;
+  padding: 1rem;
+}
+
+.popupTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popupInnerContain {
+  padding-top: 0.8rem;
+}
+
+.terms {
+  padding: 1rem;
+  font-size: 15px;
+  border: 1px solid rgb(237, 238, 242);
+  background-color: rgb(247, 248, 250);
+  /* width: 100%; */
+  border-radius: 1rem;
+}
+
+.appTutorial {
+  padding: 0 0.5rem;
+  margin: 0.7rem 0;
+  height: 40px;
+  font-size: 15px;
+  background-color: rgb(232, 0, 111);
+  color: rgb(255, 255, 255);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tokenGrid {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(237, 238, 242);
+  padding: 0.1rem 1rem;
+  outline: none;
+  border: 1px solid rgb(206, 208, 217);
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+.tokenGrid:hover {
+  border: 1px solid rgb(232, 0, 111);
+}
+
+.redLinkText {
+  color: rgb(213, 0, 102);
+  text-decoration: underline;
+}
+
+/* not a good way to do // will change */
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper,
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  border-radius: 1rem !important;
+}
+
+.moreOptionsList {
+  width: 180px;
+  padding: 0.5rem 1rem;
+}
+
+.moreOptionsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(97, 100, 112);
+  cursor: pointer;
+}
+
+.moreOptionsItem span {
+  margin: 0.6rem 0;
+}
+
+.moreOptionsItem:hover {
+  color: black;
+}
+
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  top: 67px !important;
+  box-shadow: rgb(0 0 0 / 1%) 0px 0px 1px, rgb(0 0 0 / 4%) 0px 4px 8px,
+    rgb(0 0 0 / 4%) 0px 16px 24px, rgb(0 0 0 / 1%) 0px 24px 32px !important;
+  background-color: rgb(247, 248, 250) !important;
+}
+
+.newWindowElement .topBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.newWindowElement .topBar button {
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.newWindowElement .content {
+  padding: 1rem 1.5rem;
+}
+.newWindowElement .content h2 {
+  font-size: 32px;
+}
+.newWindowElement .content p {
+  font-size: 20px;
+}
+.newWindowElement .content .seedArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.seedTextArea {
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  outline: none;
+}
+
+.seedProceedButton {
+  padding: 0.6rem 2rem;
+  color: white;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+/* table css */
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+th {
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  table {
+    width: 100%;
+  }
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+
+    color: #000;
+    font-weight: bold;
+  }
+}
